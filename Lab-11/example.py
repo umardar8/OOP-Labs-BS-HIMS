@@ -45,5 +45,5 @@ print(admin.admit_patient("Najaf", "Bone Fracture", ward="Orthopedic"))
 
 # Activity 3: Use Method Overriding and Overloading in Same program
 
-base Class -> Class 1
-base Class -> Class 2
+# base Class -> Class 1
+# base Class -> Class 2
