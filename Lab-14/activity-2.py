@@ -25,5 +25,7 @@ class RegistrationSystem:
 
 # Testing Area
 hms = RegistrationSystem()
-hms.add_patient(Patient("Ahmed Ali", 45, "Male", "Fever"))
+hms.add_patient(Patient("P-001", "Ahmed Ali", 45, "Fever"))
+hms.add_patient(Patient("P-002", "Irfan Ahmed", 30, "Influenza"))
+hms.add_patient(Patient("P-003", "Aqib Khan", 65, "Cancer"))
 hms.show_all()

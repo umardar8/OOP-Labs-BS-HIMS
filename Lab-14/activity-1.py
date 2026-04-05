@@ -6,9 +6,15 @@ class Patient:
         self.age = age
         self.condition = condition
 
-    def get_details(self):
+    def __str__(self):
         return f"ID: {self.pid} | {self.name} ({self.age}) | Condition: {self.condition}"
     
+    # def get_details(self):
+    #     return f"ID: {self.pid} | {self.name} ({self.age}) | Condition: {self.condition}"
+    
 # Testing Area
-p1 = Patient("Sarah Khan", 29, "Female", "Fever")
-print(p1.get_details())
+p1 = Patient("P-001", "Sarah Khan", 29, "Fever")
+print(p1)
+
+
+# print(p1.get_details())

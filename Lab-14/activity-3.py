@@ -103,7 +103,7 @@ class PatientApp:
         self.age_entry.delete(0, tk.END)
         self.cond_entry.delete(0, tk.END)
 
-# Execution
+
 root = tk.Tk()
 app = PatientApp(root)
 root.mainloop()
